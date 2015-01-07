@@ -3,19 +3,14 @@ placinglit
 
 Server for PlacingLiterature
 
-This repo contains the code for a pretty recent version of the site at PlacingLiterature.com.
+This repo contains code for the new PlacingLiterature site. In order to run attempt the following instructions...
 
-Placing Literature is a crowd-sourced database of real-world locations from literature. 
-It is an attempt to examine the connection between real-world places and the stories they inspire.
-The data is presented on a map which can be explored or updated.
+1) Clone this repo onto your local machine.
 
-Users are encouraged to log in and add content about the books they've read or places they've been.
-As scenes are added status updates about this content are posted to twitter.com/placinglit.
+2) Open up the google app engine launcher.
 
-The application is a Google AppEngine application written in Python.
-The front-end uses BackboneJS and Google Maps for Javascript.
-Tweets are posted to twitter using the twitter-python framework from @sixohsix.
+3) Select "add existing application" in the google app engine launcher's file menu.
 
-In addition to data added via the map interface Placing Literature also presents data from similar sites as well as book and author data from crowd-sourced databases.
+4) Click "browse" and specify the root directory of placingLiterature (this folder should contain a number of other folders such as test and Capital PlacingLiterature).
 
-Questions? Write to info@placingliterature.com
+5) Run the application and view it on the specified localhost port.
